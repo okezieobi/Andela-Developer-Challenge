@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+    <title>My Diary Sign Up</title>
+  </head>
+  <body>
+    <div class="format signin">
+    <h1 class="heading">My Diary Sign Up</h1>
+    <form>
+      <label class="heading">Enter the following details to create a profile</label>
+        <div>
+          <label for="username" class="labels">Username: </label>
+          <input type="text" id="username" placeholder="enter username" class="inputs">
+        </div>
+        <div>
+          <label for="password" class="labels">Password: </label>
+          <input type="password" id="password" placeholder="enter password" class="inputs">
+        </div>
+        <div>
+          <label for="email" class="labels">Email: </label>
+          <input type="email" id="email" placeholder="enter email" class="inputs">
+          </div>        
+        <div class="buttons">
+          <!--change type to submit when need to send data to server arrives-->
+          <button type="button" id="enroll" class="button">Submit</button>
+          <button type="button" id="cancel" class="button">Cancel</button>
+        </div>
+    </form>
+    </div>
+    <script src="signup.js" defer></script>
+  </body>
+</html>
