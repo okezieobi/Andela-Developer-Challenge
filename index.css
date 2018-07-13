@@ -7,11 +7,11 @@
     
 }
 
-.signin {
+.signin { /* correctly adjusts borders on forms */
     padding-right: 50px;
 }
 
-.edit {
+.edit { /* correctly adjusts borders on some wenpages */ 
   padding-left: 40px;
 }
 
@@ -24,11 +24,11 @@
     padding-right: 120px;
 }
 
-.boldwords {
+.boldwords { /* used to bold some fonts on diffefrent webpages */
     font-weight: bold;
 }
 
-.h1 {
+.h1 { /* correctly adjusts main headings  */ 
     padding-left: 110px;
 }
 
@@ -54,7 +54,7 @@
     padding-left: 90px;
 }
 
-.heading {
+.heading { /* correctly adjusts some sub headings */
     padding-left: 90px
 }
 

@@ -6,6 +6,7 @@ window.onload = () => {
     const deleteFolder = document.getElementById('delete-folder');
     const signout = document.getElementById('signout');
     const selectEntry = document.getElementById('select');
+    const selectEntryAgain = document.getElementById('selectagain');
 
     newEntry.onclick = () => {
         window.location.href="updatededitentry.html";
@@ -23,7 +24,7 @@ window.onload = () => {
     }
 
     selectEntry.onclick = () => {
-        if(deleteEntry.disabled && moveEntry.disabled) {
+        if(deleteEntry.disabled && moveEntry.disabled || selectEntryAgain.checked === true) {
             deleteEntry.disabled = false;
             moveEntry.disabled = false;
         } else {
@@ -40,4 +41,24 @@ window.onload = () => {
         }
 
     }
+
+    selectEntryAgain.onclick = () => {
+        if(deleteEntry.disabled && moveEntry.disabled || selectEntry.checked == true) {
+            deleteEntry.disabled = false;
+            moveEntry.disabled = false;
+        } else {
+            deleteEntry.disabled = true;
+            moveEntry.disabled = true;
+        }
+
+        deleteEntry.onclick = () => {
+            alert('Functionality coming soon!');
+        }
+    
+        moveEntry.onclick = () => {
+            alert("Functionality comming soon!");
+        }
+
+    }
+
 }
