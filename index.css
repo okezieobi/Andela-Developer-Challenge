@@ -1,16 +1,25 @@
 .format  { /* to enter login forms on page */
     margin: 0 auto;
     width: 400px;
+    margin-top: 7em;
     padding: 1em;
-    border: 1px solid #CCC;
+    border: 2px solid #CCC;
     border-radius: 1em;
-    
+    background-color: white;
+    opacity: 1.0;
+    border: none;
+       
 }
 
 .signin { /* correctly adjusts borders on forms */
     padding-right: 50px;
+    margin-left: 53em;
 }
 
+.signup { /* correctly adjusts borders on forms */
+    padding-right: 50px;
+    margin-left: 24em;
+}
 .edit { /* correctly adjusts borders on some wenpages */ 
   padding-left: 40px;
 }
@@ -40,14 +49,27 @@
 
 .inputs { /* makes sure all input fields have the same font, give input boxes the same size and harmonize the look and feel of input field border*/
     font: 1em sans-serif;
-    width: 300px;
+    width: 250px;
     box-sizing: border-box;
     border: 1px solid #999;
     margin-bottom: 0.5em;
+    padding: 0.4em;
+    border-radius: 4px;
 }
 
 .button { /* margin for space between buttons  and input/textarea fields */
     margin-bottom: .5em;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: black;
+    color: whitesmoke;
+    opacity: 0.7;
+}
+
+.button:hover{
+    opacity: 0.9;
 }
 
 .buttons { /* ensures buttons and headings are properly aligned with input/textarea fields */
@@ -56,6 +78,21 @@
 
 .heading { /* correctly adjusts some sub headings */
     padding-left: 90px
+}
+
+.sign-in-heading {
+    padding-left: 80px;
+}
+
+.white-text {
+    color: white;
+}
+.grey-text{
+    color: grey;
+}
+
+.back-text {
+    color: black;
 }
 
 .textingarea { /* ensures textarea is properly aligned and spaced, has correct size*/
@@ -100,3 +137,37 @@
 .caption { /* ensures profile picture caption is properly aligned */
     padding-left: 60px;
 }
+
+
+.image1 {
+    background-image: url(image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+
+.image2 {
+    background-image: url(image2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+
+.image1:before {
+    position: relative;
+}
+ .signin-prompt {
+     padding-left: 6em;
+ }
+
+ .sign-in-button {
+     margin-left: 6.5em;
+ }
+
+ .top-buttons {
+     margin-left: 56.5em;
+ }
+
+ .each-top-button {
+     margin: 4px
+ }
