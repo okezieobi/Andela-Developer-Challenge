@@ -2,30 +2,35 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Frank Okezie Obiedere">
     <meta name="description" content="Submission for Andela Cycle 34 Developer Challenge">
     <link rel="stylesheet" href="index.css">
     <title>My Diary Sign In</title>
   </head>
-  <body>
+  <body class="image1">
+    <header>
+    <h1 class="sign-in-heading white-text">My Diary</h1>
+    <div class="top-buttons">
+    <button type="button" id="signup" class="button each-top-button">New User ? Sign up</button>
+          <button type="button" id="resetpassword" class="button each-top-button">Forgot Password ? Retrieve Now</button>
+    </div> 
+    </header>
     <div class="format signin">
-      <h1 class="heading">My Diary</h1>
-      <h5 class="heading">No functionality yet as instructed...all buttons give some feedback though...I think</h5>
+      <h2 class="signin-prompt black-text">Please Sign in</h2>
       <form>
-        <lable class="heading">Please Sign In</lable>
         <div>
-          <lable for="username" class="labels">Username: </lable>
-          <input type="text" id="username" placeholder="please enter your username" class="inputs">
+          <lable for="username" class="labels"></lable>
+          <input type="text" id="username" placeholder="Username..." class="inputs">
         </div>
         <div>
-          <lable for="password" class="labels">Password: </lable>
-          <input type="password" id="password" placeholder="please enter your password" class="inputs">
+          <lable for="password" class="labels"></lable>
+          <input type="password" id="password" placeholder="Password..." class="inputs">
         </div>
         <div class="buttons">
           <!--change type to submit when need to send data to server arrives-->
-          <button type="button" id="signin" class="button">Sign-In</button> 
-          <button type="button" id="signup" class="button">New User ? Sign up</button>
-          <button type="button" id="resetpassword" class="button">Forgot Password ? Retrieve Now</button>    
+          <button type="button" id="signin" class="button sign-in-button">Sign-In</button> 
+             
         </div>
       </form>
     </div>
