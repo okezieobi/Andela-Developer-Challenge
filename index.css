@@ -1,0 +1,173 @@
+.format  { /* to enter login forms on page */
+    margin: 0 auto;
+    width: 400px;
+    margin-top: 7em;
+    padding: 1em;
+    border: 2px solid #CCC;
+    border-radius: 1em;
+    background-color: white;
+    opacity: 1.0;
+    border: none;
+       
+}
+
+.signin { /* correctly adjusts borders on forms */
+    padding-right: 50px;
+    margin-left: 53em;
+}
+
+.signup { /* correctly adjusts borders on forms */
+    padding-right: 50px;
+    margin-left: 24em;
+}
+.edit { /* correctly adjusts borders on some wenpages */ 
+  padding-left: 40px;
+}
+
+.dashformat { /* to center dashboard forms  */ 
+    margin: 0 auto;
+    width: 700px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    padding-right: 120px;
+}
+
+.boldwords { /* used to bold some fonts on diffefrent webpages */
+    font-weight: bold;
+}
+
+.h1 { /* correctly adjusts main headings  */ 
+    padding-left: 110px;
+}
+
+.labels { /* ensures labels have the same size and properly aligned*/
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+.inputs { /* makes sure all input fields have the same font, give input boxes the same size and harmonize the look and feel of input field border*/
+    font: 1em sans-serif;
+    width: 250px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    margin-bottom: 0.5em;
+    padding: 0.4em;
+    border-radius: 4px;
+}
+
+.button { /* margin for space between buttons  and input/textarea fields */
+    margin-bottom: .5em;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: black;
+    color: whitesmoke;
+    opacity: 0.7;
+}
+
+.button:hover{
+    opacity: 0.9;
+}
+
+.buttons { /* ensures buttons and headings are properly aligned with input/textarea fields */
+    padding-left: 90px;
+}
+
+.heading { /* correctly adjusts some sub headings */
+    padding-left: 90px
+}
+
+.sign-in-heading {
+    padding-left: 80px;
+}
+
+.white-text {
+    color: white;
+}
+.grey-text{
+    color: grey;
+}
+
+.back-text {
+    color: black;
+}
+
+.textingarea { /* ensures textarea is properly aligned and spaced, has correct size*/
+    vertical-align: top;
+    width: 22.3em;
+    box-sizing: border-box;
+    margin-bottom: 0.5em;
+}
+
+.profile { /* ensures profile image is properly aligned  */
+    float: right;
+}
+.signout { /* makes sign out button red */
+    background-color: red;
+}
+
+.newentry { /* makes entry button green */
+    background-color: green;
+}
+
+.userprofile { /*  properly aligns user profile */
+    padding-right: 180px;
+}
+
+.title .message { /* ensures font to view netries are properly spaced and consistent  */
+    margin-top: 1em;
+    font: 1em sans-serif;
+}
+
+.profilebtn { /* properly ensures buttons in profile page is correctly displayed */
+    padding-left: 30px;
+    padding-right: 30px
+}
+
+.cards { /* creates borders for entries in dashboard and other pages */
+    border: 1px solid grey;
+    padding: 0.2em;
+    border-radius: 0.5em;
+    margin: 0.3em;
+}
+
+.caption { /* ensures profile picture caption is properly aligned */
+    padding-left: 60px;
+}
+
+
+.image1 {
+    background-image: url(image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+
+.image2 {
+    background-image: url(image2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+
+.image1:before {
+    position: relative;
+}
+ .signin-prompt {
+     padding-left: 6em;
+ }
+
+ .sign-in-button {
+     margin-left: 6.5em;
+ }
+
+ .top-buttons {
+     margin-left: 56.5em;
+ }
+
+ .each-top-button {
+     margin: 4px
+ }

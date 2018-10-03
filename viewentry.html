@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Diary User Profile</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="format">
+        <h1 class="heading">A Diary Entry</h1>
+        <form>
+            <lable class="heading">Entry View</lable>
+            <div class="cards">
+                <label for="subject" class="title boldwords">Subject: </label>
+                <span id="subject" class="title">Subject of entry to be written or deleted or edited</span>
+            </div>
+            <div class="cards">
+                <label for="content" class="message boldwords">Content: </label>
+                <span id="content" class="message">Content of entry to be written/deleted/edited</span>
+            </div>
+            <div class="buttons">
+                <button type="button" id="edit" class="button">Edit</button>
+                <button type="button" id="delete" class="button">Delete</button>
+                <button type="button" id="cancel" class="button">Cancel</button>
+            </div>            
+        </form>
+    </div>
+    <script src="viewentry.js"></script>
+  </body>
+</html>

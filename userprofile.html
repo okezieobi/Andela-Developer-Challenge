@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+    <title>My Diary User Dashboard</title>
+  </head>
+  <body>
+    <div class="format">
+      <h1 class="h1">User Profile</h1>
+      <form>
+        <img src="profile-image.png" class="heading" alt="profile image of user">
+          <div class="buttons">
+            <button type="button" id="cancel" class="profilebtn">Back</button>
+            <button type="button" id="signout" class="signout profilebtn">Sign Out</button>   
+          </div>
+          <div class="cards">
+            <lable>Username: </lable>
+            <span>this displays username of profile</span>
+          </div>
+          <div class="cards">
+            <label>Email: </label>
+            <span>this displays email used to sign up</span>
+          </div>
+          <div class="cards">
+            <label>No of entries: </label>
+            <span>this displays number of entries since registration</span>
+          </div>
+          <div class="cards">
+            <label>Reminder: </label>
+            <span>This is a reminder settings <button id="settings">Change</button></span>
+          </div>
+        </form>
+    </div>
+    <script src="userprofile.js"></script>
+  </body>
+</html>
